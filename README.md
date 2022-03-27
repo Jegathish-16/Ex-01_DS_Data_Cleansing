@@ -40,7 +40,7 @@ print("Cleaned Data:")
 print(df.isnull().sum())
 df.to_csv('data.csv', index=False)
 ```
-# OUPUT:
+# OUTPUT:
 ![output](Sc.png)
 # Result:
 Thus the given data is read cleaned and the cleaned data has been saved to the file.
