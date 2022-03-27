@@ -20,6 +20,7 @@ Save the Clean data to the file
 
 
 # CODE:
+```
 '''
 Developed by: Jegathish s
 Roll no.: 212221230041
@@ -38,6 +39,7 @@ print()
 print("Cleaned Data:")
 print(df.isnull().sum())
 df.to_csv('data.csv', index=False)
+```
 # OUPUT:
 ![output](Sc.png)
 # Result:
